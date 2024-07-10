@@ -1,8 +1,9 @@
 {
   "name": "ionic-sidemenu-tabs",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "version": "1.0.0",
+  "author": "Yiyan HU",
+  "homepage": "https://github.com/hyyyanick/ionic-sidemenu-tabs.git",
+  "main": "./dist/index.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +12,6 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
@@ -21,11 +21,6 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
-    "@capacitor/app": "6.0.0",
-    "@capacitor/core": "6.1.0",
-    "@capacitor/haptics": "6.0.0",
-    "@capacitor/keyboard": "6.0.1",
-    "@capacitor/status-bar": "6.0.0",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.2.1",
     "rxjs": "~7.8.0",
@@ -42,7 +37,6 @@
     "@angular/cli": "^18.0.0",
     "@angular/compiler-cli": "^18.0.0",
     "@angular/language-service": "^18.0.0",
-    "@capacitor/cli": "6.1.0",
     "@ionic/angular-toolkit": "^11.0.1",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -60,5 +54,20 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.0"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project combine sidemenu and tabs together",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyyyanick/ionic-sidemenu-tabs.git"
+  },
+  "keywords": [
+    "ionic",
+    "sidemenu",
+    "tabs",
+    "angular",
+    "standalone"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyyyanick/ionic-sidemenu-tabs/issues"
+  }
 }
