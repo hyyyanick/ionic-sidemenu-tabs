@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sidemenu-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
