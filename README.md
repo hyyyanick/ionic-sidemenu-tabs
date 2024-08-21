@@ -14,4 +14,3 @@ cd ionic-sidemenu-tabs
 npm install
 ionic serve
 ```
-Pipeline test
